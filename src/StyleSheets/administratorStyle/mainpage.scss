@@ -1,0 +1,177 @@
+.main-organizer-contentA {
+  background-color: rgba(217, 217, 217, 0.066);
+  border-radius: .5rem;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, .3);
+  overflow: hidden;
+  position: relative;
+  padding: 5rem;
+  justify-content: center;
+  width: 50rem; /* set the width of the container */
+  margin: 5rem auto;
+  border-bottom-color: red;
+  line-height: 2rem;
+  display: flex;
+  color: black;
+  flex-direction: row;
+}
+
+.organizer-imageA{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 90px;
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.pImageA{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+.primary-mainA{
+  height: 400vh;
+  background-color: #0cbaba;
+  background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+  color: #fdfdfd;
+  margin-top: 0;
+  //margin-top: 200px;
+}
+.headingA{
+  margin-top: 80px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  .headingNA{
+    font-size: 40px;
+    color: #fdfdfd;
+    font-weight: bold;
+  }
+  .essayA{
+    width: 50%;
+    left: 25%;
+    position: relative;
+  }
+}
+.containerOrganizerA{
+  display: flex;
+  color: white;
+}
+
+h2{
+  color: white;
+  margin-top: 0px;
+  top: 10%;
+  /* position: absolute; */
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  margin-bottom: 50px;
+}
+.updateA{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  background-color: #2234ae;
+  //background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  //transition: 0.3s;
+  justify-content: center;
+  //position: relative;
+  display: flex;
+  margin-top: 50px;
+  margin-left: 130px;
+  width: 50%;
+  transition: 0.2s ease-in-out;
+
+  &:hover{
+    transition: 0.2s ease-in-out;
+    background-color: #191714;
+    //background-image: linear-gradient(315deg, #191714 0%, #2234ae 74%);
+  }
+}
+.organizer-eventA{
+  display: flex;
+  margin: 15rem;
+  gap: 1.2rem;
+  justify-content: center;
+}
+.organizer-event-content1A{
+  background-color: rgba(217, 217, 217, 0.066);
+  border-radius: .5rem;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, .3);
+  overflow: hidden;
+  position: relative;
+  padding: 5rem;
+  justify-content: center;
+  width: 30rem; /* set the width of the container */
+  //margin: 5rem auto;
+  border-bottom-color: red;
+  line-height: 2rem;
+  //display: flex;
+  color: black;
+  //flex-direction: row;
+}
+.organizer-event-content2A{
+  background-color: rgba(217, 217, 217, 0.066);
+  border-radius: 0.5rem;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  position: relative;
+  padding: 5rem;
+  justify-content: center;
+  width: 100%;
+  border-bottom-color: red;
+  line-height: 2rem;
+  color: black;
+  height: 40rem;
+  display: flow-root;
+  text-align: center;
+}
+
+.ArtistA{
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  width: 50%;
+  justify-content: center;
+  //margin-left: 70px;
+  background-color: #ff9f1a;
+
+  &:hover{
+    transform: 0.2 ease-in-out;
+    background-color: #ff9f1a;
+    color: white;
+  }
+}
+
+.ScheduleA {
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  width: 50%;
+  justify-content: center;
+  //margin-left: 70px;
+  background-color: #ff9f1a;
+}
+.organizer-event-contentM{
+
+  gap: 1.2rem;
+  display: grid;
+}

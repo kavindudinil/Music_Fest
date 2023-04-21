@@ -1,0 +1,17 @@
+.organizer-main-content{
+  width: 50%;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  /* left: 40%; */
+  top: 50px;
+  align-items: center;
+  margin-left: 35%;
+}
+.organizer-main{
+  background-image: url("../Assets/imgs/night-gb3a5b8a80_1920.jpg");
+  background-size: cover;
+  //height: 120%;
+  height: 420vh;
+  //z-index: 999;
+}

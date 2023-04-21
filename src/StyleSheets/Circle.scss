@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.artist-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+
+
+  .artist-circle {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .artist-name {
+      position: absolute;
+      bottom: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      font-size: 0.8rem;
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+    }
+    .artist-circle-background{
+      //filter: blur(5px);
+      transition: filter 0.3s ease-in-out;
+    }
+    &:hover .artist-circle-background{
+      filter: blur(3px);
+    }
+
+    &:hover .artist-name {
+      opacity: 1;
+    }
+  }
+}
+.artist-list-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 5rem;
+  font-weight: 700;
+  color: #fff;
+  font-family: 'Dancing Script', cursive;
+}
+

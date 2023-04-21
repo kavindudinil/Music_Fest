@@ -1,0 +1,56 @@
+.navigation-bar {
+  background: black;
+  width: 100%;
+  height: 80px;
+  border-color: white;
+  //z-index: 100;
+  position: absolute;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(20px);
+  top: 0;
+  position: fixed;
+  z-index: 999;
+  //background: transparent;
+
+
+
+  ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 20px 0;
+    right: 5px;
+    position: absolute;
+
+    li {
+      margin-left: 20px;
+      //background-color: #ff9f1a;
+      padding: 10px 20px;
+      border-radius: 10px;
+      cursor: pointer;
+      color: white;
+      background-color: #000000;
+      background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+      &:first-child {
+        margin-left: 0;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+.logo {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  img {
+    width: 100px;
+    background-color: transparent;
+  }
+}

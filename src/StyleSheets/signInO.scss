@@ -1,0 +1,106 @@
+.form-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  label {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: white;
+  }
+
+  input[type="name"],
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    transition: border-color 0.2s ease-in-out;
+
+    //&:hover {
+    //  border-color: red;
+    //}
+
+    &:focus {
+      outline: none;
+      border-color: #007bff;
+      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    }
+
+    &.error {
+      border-color: red;
+      //color: red;
+    }
+  }
+  .error-happen {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+  }
+
+  button[type="submit"] {
+    margin-top: 1rem;
+    padding: 0.4rem 4rem;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+
+
+    &:hover {
+        background-color: #0069d9;
+
+    }
+
+    &:active {
+      transform: translateY(1px);
+    }
+  }
+}
+.error-happen {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+.success {
+  border: 1px solid green;
+}
+.error {
+  border: 1px solid red;
+}
+.form-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  //box-shadow: 0 0 0.5rem #ccc;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 1rem;
+  //background-color: #fff;
+  //margin-top: 100px;
+  top: 20vh;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(20px);
+}
+
+.formN{
+  background-color: black;
+  top: 0;
+  position: relative;
+  height: 150vh;
+  background-image: url("../Assets/imgs/crowd-gbd9f7255c_1920.jpg");
+  background-size: cover;
+}

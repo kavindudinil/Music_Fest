@@ -1,0 +1,17 @@
+.table-custom{
+  position: absolute;
+  top:20%;
+  margin-top: 100px;
+  width: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(20px);
+  margin-left: 35%;
+  /* padding-left: 10px; */
+  border-radius: 10px;
+  ;
+
+  .table-p{
+    border-radius: 10px;
+  }
+}

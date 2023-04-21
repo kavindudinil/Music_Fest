@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.main-page {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  //width: 100vw;
+  top: 0;
+  position: relative;
+  font-family: 'Dancing Script', cursive;
+  overflow: hidden;
+  width: 100%;
+
+
+  img {
+    width: 100%;
+    //z-index: 2;
+    position: absolute;
+
+    &:before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 60px;
+      background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+    }
+
+    // Set the opacity of the image to fade out towards the bottom
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.8;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+  }
+
+  h1 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    z-index: 2;
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 250px;
+    color: black;
+    //display: none;
+  }
+
+  p {
+    font-size: 1.5rem;
+    text-align: center;
+    z-index: 2;
+    margin-top: 135px;
+    justify-content: center;
+    color: black;
+    position: relative;
+    //display: none;
+  }
+}
+.main{
+  display: block;
+  //background: black;
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+  
+
+  //flex-direction: column;
+}
+.main-page2{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 20%;
+  margin-top: 30%;
+  margin-bottom: 30%;
+
+  .Image{
+    position: relative;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+  }
+
+  .Image img{
+    z-index: 111;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  p{
+    z-index: 222;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(20px);
+    padding: 40px;
+    max-width: 400px;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 10px;
+    color: white;
+    transform: translate(-80px,50px) ;
+  }
+}
+
+
+
